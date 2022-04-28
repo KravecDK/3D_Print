@@ -1,0 +1,285 @@
+body {
+    font-size: small;
+    font-family: sans-serif;
+    background-color: rgb(223, 222, 222);
+    margin: 0;
+}
+
+#pro {
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 40px #0ff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 45px 45px;
+    opacity: 0.5;
+    /*Прозрачность*/
+    font-size: 120%;
+}
+
+#info_top {
+    margin: 5%;
+}
+
+#header {
+    background-image: url(picters/aaaa.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0);
+}
+#header h1 {
+    font-size: 300%;
+}
+.fullscreen_title {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: 0.8s;
+}
+.fullscreen_title._active {
+    transform: translate(0px, 0%);
+    opacity: 1;
+}
+.fullscreen_text {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.fullscreen_text._active {
+    transform: translate(0px, 0%);
+    opacity: 1;
+    transition: all 0.8s ease 0.4s;
+}
+.moments_image {
+    transform: scale(0);
+    transition: all 0.8s ease 0s;
+}
+.moments_item._active .moments_image {
+    transform: scale(1);
+}
+.moments_text {
+    transform: translate(0px, 50%);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}.fullscreen_text
+.moments_item._active .moments_text {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    translate: all 0.8s ease 0.6s;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    font-size: 100%;
+    padding: 10%;
+
+}
+
+nav {
+    background-color: rgb(5, 3, 17);
+    font-size: 150%;
+    border-radius: 0px 0px 45px 45px;
+}
+nav ul {
+    text-align: center;
+	margin: 0px;
+	list-style-type: none;
+	padding: 15px 10px 15px 10px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+#contact h3{
+    font-size: 220%;
+    text-align: center;
+}
+#contact_1 {
+    
+    font-size: 150%;
+    margin: 5%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    background-image: url(picters/icons/icons8-офисный-телефон-100.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0); /*Тень*/
+    /* Фон без повторения */
+}
+
+.job h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.job {
+    font-size: 150%;
+}
+
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+div#tableRow {
+    display: table-row;
+}
+
+section#t1,
+section#t2,
+section#t3,
+section#t4 {
+    display: table-cell;
+    padding: 20px;
+    vertical-align: top;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+    width: 15%;
+}
+
+#filoment h3 {
+    font-size: 220%;
+    text-align: center;
+}
+
+#filoment {
+    margin: 5%;
+}
+
+#filoment ul {
+    font-size: 150%;
+    display: table-cell;
+    padding: 50px;
+    vertical-align: top;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0);
+    background-image: url(picters/kisspng-3d-printing-filament-polylactic-acid-lyman-filamen-5b18a9272827a0.1160020915283428231645.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Фон без повторения */
+}
+
+#cash {
+    font-size: 150%;
+    margin: 5%;
+}
+#cash h2{
+text-align: center;
+}
+#cash h3 {
+    text-align: center;
+}
+#cash_info {
+    font-size: medium;
+    text-align: center;
+    padding: 50px;
+    vertical-align: top;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+    background-image: url(picters/icons/icons8-банк-идей-100.png);
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0); /*Тень*/
+    /* Фон без повторения */
+}
+section#t11,
+section#t22,
+section#t33 {
+    display: table-cell;
+    padding: 20px;
+    vertical-align: top;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+    width: 23%;
+}
+
+
+#model {
+    margin: 5%;
+    font-size: 150%;
+}
+#model h3 {
+    text-align: center;
+    font-size: 150%;
+}
+#model_info {
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    color: #fff;
+}
+
+#site_model {
+    margin: 5%;
+    font-size: 150%;
+}
+#site_model h3{
+    text-align: center;
+    font-size: 150%;
+}
+
+a {
+    color: rgb(233, 210, 0);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(230, 114, 5);
+  }
+  
+  a:visited {
+    color: gray;
+  }
+  #a1 {
+      text-align: center;
+      border-color: red;
+  }
+
+#telegramm {
+    position: fixed;
+    bottom: 15%;
+    right: 5px;
+}
+
+#up {
+    position: fixed;
+    bottom: 2%;
+    right: 5px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px 10px;
+    font-size: 90%;
+}
+
+
+/*
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: 0.8s;
+    позволяет уехать в низ и сделать прозрачным
+
+    _activ
+    transform: translate(0px, 0%);
+    opacity: 1;
