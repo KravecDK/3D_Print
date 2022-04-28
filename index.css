@@ -63,7 +63,7 @@ body {
     transform: translate(0px, 50%);
     opacity: 0;
     transition: all 0.3s ease 0s;
-}.fullscreen_text
+}
 .moments_item._active .moments_text {
     transform: translate(0px, 0px);
     opacity: 1;
