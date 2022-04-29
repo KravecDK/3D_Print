@@ -27,7 +27,6 @@ body {
 #header {
     background-image: url(picters/aaaa.jpg);
     background-size: 100% 100%;
-    height: 100vh;
     text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0);
 }
 #header h1 {
@@ -126,7 +125,7 @@ nav ul li {
 }
 
 .job {
-    font-size: 65%;
+    font-size: 100%;
 }
 
 div#tableContainer {
@@ -142,13 +141,12 @@ section#t1,
 section#t2,
 section#t3,
 section#t4 {
-    display: table-cell;
-    padding: 5px;
+    margin: 15px 0px 15px 0px;
+    padding: 35px;
     vertical-align: top;
     background-color: rgb(49, 49, 49);
     border-radius: 20px;
     color: #fff;
-    width: 15%;
 }
 
 #filoment h3 {
@@ -232,9 +230,13 @@ section#t33 {
     margin: 5%;
     font-size: 60%;
 }
+#site_model h2{
+    text-align: center;
+    font-size: 350%;
+}
 #site_model h3{
     text-align: center;
-    font-size: 90%;
+    font-size: 120%;
 }
 
 a {
@@ -276,5 +278,5 @@ footer {
     text-align: center;
     padding: 15px;
     margin: 10px 10px 10px 10px;
-    font-size: 90%;
+    font-size: 30%;
 }
