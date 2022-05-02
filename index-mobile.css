@@ -13,6 +13,7 @@ body {
     top: 0;
     left: 0;
     border-radius: 0px 0px 45px 45px;
+    font-size: 70%;
 }
 nav ul li a:link, nav ul li a:visited {
 	color: #ffffff;
