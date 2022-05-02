@@ -1,6 +1,6 @@
 body {
     font-size: small;
-    font-family: sans-serif;
+    background: linear-gradient(90deg, #2d353f 0%, #838e99 100%);
     background-color: rgb(223, 222, 222);
     margin: 0;
 }
@@ -8,16 +8,27 @@ body {
 #pro {
     background-color: black;
     width: 100%;
-    color: #fff;
-    text-shadow: 0 0 5px #fff, 0 0 40px #0ff;
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     border-radius: 0px 0px 45px 45px;
-    opacity: 0.5;
-    /*Прозрачность*/
-    font-size: 120%;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #ffffff;
+	border-bottom: none;
+	font-weight: bold;
+
+
+	text-shadow: 1px 1px 3px #493c85; 
+
+
+	text-transform: uppercase;
+}
+
+li.selected {
+	background-color: rgb(42, 19, 87);
+    border-radius: 5px;
 }
 
 #info_top {
@@ -79,7 +90,6 @@ body {
 }
 
 nav {
-    background-color: rgb(5, 3, 17);
     font-size: 150%;
     border-radius: 0px 0px 45px 45px;
 }
@@ -102,7 +112,7 @@ nav ul li {
     
     font-size: 150%;
     margin: 5%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
     padding-top:  20px;
@@ -140,7 +150,7 @@ section#t4 {
     display: table-cell;
     padding: 20px;
     vertical-align: top;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
     width: 15%;
@@ -160,7 +170,7 @@ section#t4 {
     display: table-cell;
     padding: 50px;
     vertical-align: top;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
     text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0);
@@ -185,7 +195,7 @@ text-align: center;
     text-align: center;
     padding: 50px;
     vertical-align: top;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
     background-image: url(picters/icons/icons8-банк-идей-100.png);
@@ -200,7 +210,7 @@ section#t33 {
     display: table-cell;
     padding: 20px;
     vertical-align: top;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
     width: 23%;
@@ -217,7 +227,7 @@ section#t33 {
 }
 #model_info {
     padding: 20px;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(30, 30, 31);
     border-radius: 20px;
     color: #fff;
 }
@@ -275,6 +285,48 @@ footer {
     padding: 15px;
     margin: 10px 10px 10px 10px;
     font-size: 60%;
+}
+
+/*my_work page*/
+
+
+.card1 h3{
+    font-size: 220%;
+    text-align: center;
+}
+
+.card1_1 {
+    
+    text-align: center;
+        font-size: 150%;
+        margin: 5%;
+        background-color: rgb(30, 30, 31);
+        border-radius: 20px;
+        color: #fff;
+        padding-top:  20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0); /*Тень*/
+    /* Фон без повторения */
+}
+.card2 h3{
+    font-size: 180%;
+    text-align: center;
+}
+
+.card1_2 {
+        font-size: 150%;
+        margin: 5%;
+        background-color: rgb(30, 30, 31);
+        border-radius: 20px;
+        color: #fff;
+        padding-top:  20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0); /*Тень*/
+    /* Фон без повторения */
 }
 
 
