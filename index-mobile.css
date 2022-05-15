@@ -272,10 +272,14 @@ a {
 
 #telegramm {
     position: fixed;
-    bottom: 15%;
+    bottom: 27%;
     right: 5px;
 }
-
+#VK {
+    position: fixed;
+    bottom: 18%;
+    right: 5px;
+}
 #up {
     position: fixed;
     bottom: 2%;
