@@ -28,7 +28,7 @@ nav ul li a:link, nav ul li a:visited {
 }
 
 li.selected {
-	background-color: rgb(42, 19, 87);
+	background-color:  rgb(73, 115, 225, 0.6);
     border-radius: 5px;
 }
 
@@ -407,3 +407,79 @@ footer {
     margin: 1em;
     text-align: center;
     }
+
+    .wrapper {
+        width: 100%;
+        min-height: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.wave-btn{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease 0s;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+.wave-btn:hover .wave-btn__waves{
+top: -50px;
+}
+.wave-btn:hover {
+    border-radius: 10px;
+    transition: all 0.8s ease 2s;
+    -webkit-box-shadow: inset 0 0 40px rgb(73, 115, 225, 0.6);
+    box-shadow: inset 0 0 40px rgb(73, 115, 225, 0.6);
+}
+.wave-btn__text {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.wave-btn__waves {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: #4973ff;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: inset 0 0 50px rgb(0, 0, 0, 0,5);
+    box-shadow: inset 0 0 50px rgb(0, 0, 0, 0,5);
+    transition: all 0.8s ease 0s;
+}
+.wave-btn__waves::after,
+.wave-btn__waves::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 250%;
+    height: 250%;
+    transform: translate3d(-50%,-96%,0) rotate(0deg) scale(1);
+}
+.wave-btn__waves::before {
+    background-color: rgb(30, 30, 31);
+    border-radius: 48%;
+    animation: waves 5S infinite linear;
+}
+.wave-btn__waves::after {
+    background-color: rgba(30, 30, 31, 0.5);
+    border-radius: 44%;
+    animation: waves 10S infinite linear;
+}
+@keyframes waves{
+    0%{
+        transform: translate3d(-50%,-96%,0) rotate(0deg) scale(1);
+    }
+    100%{
+        transform: translate3d(-50%,-96%,0) rotate(360deg) scale(1);
+    }
+}
