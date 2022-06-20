@@ -225,11 +225,11 @@ section#t33 {
 
 #model {
     margin: 5%;
-    font-size: 100%;
+    font-size: 80%;
 }
 #model h3 {
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
 }
 #model_info {
     padding: 20px;
@@ -244,11 +244,11 @@ section#t33 {
 }
 #site_model h2{
     text-align: center;
-    font-size: 350%;
+    font-size: 330%;
 }
 #site_model h3{
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 a {
@@ -420,7 +420,7 @@ footer {
         align-items: center;
     }
 .wave-btn{
-    width: 90px;
+    width: 80px;
     height: 20px;
     display: flex;
     border-radius: 0 0 10px 10px;
@@ -448,8 +448,8 @@ top: -50px;
 }
 .wave-btn__waves {
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: #4973ff;
     top: 0;
     left: 0;
