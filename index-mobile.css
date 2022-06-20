@@ -179,7 +179,7 @@ section#t4 {
     border-radius: 20px;
     color: #fff;
     text-shadow: 0 0 5px rgb(58, 36, 36), 0 0 15px rgb(0, 0, 0);
-    background-image: url(picters/kisspng-3d-printing-filament-polylactic-acid-lyman-filamen-5b18a9272827a0.1160020915283428231645.png);
+    background-image: url(picters/5b431bc5e99939b4572e328e.png);
     background-position: center;
     background-repeat: no-repeat;
     /* Фон без повторения */
@@ -248,7 +248,7 @@ section#t33 {
 }
 #site_model h3{
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 a {
@@ -334,7 +334,7 @@ footer {
 }
 
 .card1_2 {
-        font-size: 150%;
+        font-size: 100%;
         margin: 5%;
         background-color: rgb(30, 30, 31);
         border-radius: 20px;
@@ -420,7 +420,7 @@ footer {
         align-items: center;
     }
 .wave-btn{
-    width: 80px;
+    width: 90px;
     height: 20px;
     display: flex;
     border-radius: 0 0 10px 10px;
@@ -448,8 +448,8 @@ top: -50px;
 }
 .wave-btn__waves {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color: #4973ff;
     top: 0;
     left: 0;
